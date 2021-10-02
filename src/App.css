@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-div {
+.App div {
   border: 2px solid gold;
   margin: 15px;
   padding: 12px;
