@@ -4,7 +4,7 @@ import Grandfather from "./components/Grandfather/Grandfather";
 function App() {
   return (
     <div className="App">
-      <Grandfather />
+      <Grandfather house="5" />
     </div>
   );
 }

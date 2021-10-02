@@ -1,9 +1,11 @@
 import React from "react";
 
-const Brother = () => {
+const Brother = (props) => {
+  const { house } = props;
   return (
     <div>
       <h2>Brother</h2>
+      <h5>House: {house}</h5>
     </div>
   );
 };
