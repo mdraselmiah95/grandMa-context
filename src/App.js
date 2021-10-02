@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => setHouse(house + 1)}>Buy a new houses</button>
-      <Grandfather house={house} />
+      <Grandfather house={house} ornaments={ornaments} />
     </div>
   );
 }
